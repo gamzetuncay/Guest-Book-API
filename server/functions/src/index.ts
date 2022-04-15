@@ -12,7 +12,7 @@ var serviceAccount = require('../permissions.json')
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://dcl-guestbook.firebaseio.com',
+  databaseURL: 'https://dcl-guestbook0.firebaseio.com',
 })
 
 app.get('/hello-world', (req: any, res: any) => {
