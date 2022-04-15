@@ -7,4 +7,4 @@ bin/
 # secret credentials
 server/functions/permissions.json
 
-
+permissions.json
